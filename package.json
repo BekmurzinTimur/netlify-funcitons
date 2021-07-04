@@ -1,0 +1,23 @@
+{
+  "name": "vk-image-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BekmurzinTimur/netlify-funcitons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BekmurzinTimur/netlify-funcitons/issues"
+  },
+  "homepage": "https://github.com/BekmurzinTimur/netlify-funcitons#readme",
+  "dependencies": {
+    "cloudinary": "^1.26.2",
+    "dotenv": "^10.0.0"
+  }
+}
