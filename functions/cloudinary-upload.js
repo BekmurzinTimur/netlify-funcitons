@@ -10,7 +10,11 @@ cloudinary.config({
 
 // When doing a signed upload, you'll use a function like this:
 exports.handler = async (event) => {
-  const { file } = JSON.parse(event.body)
+  console.log(event.body)
+  const json = JSON.parse(event.body)
+  console.log(json)
+  const { file } = json
+  console.log(file)
   const res = await cloudinary.uploader.upload(file, {
     ...JSON.parse(event.body),
   })
